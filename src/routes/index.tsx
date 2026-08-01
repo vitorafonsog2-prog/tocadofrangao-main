@@ -2,47 +2,13 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Clock, Flame, Instagram, MapPin, Facebook } from "lucide-react";
 
 import { Reveal } from "../components/Reveal";
-import logoAsset from "../assets/logo.webp.asset.json";
+import logo from "../assets/logo.webp";
 import heroImg from "../assets/hero-frango.jpg";
-import historiaAsset from "../assets/historia.png.asset.json";
-import produtoAssadoAsset from "../assets/produto-assado.png.asset.json";
-import produtoChurrascoAsset from "../assets/produto-churrasco.png.asset.json";
-import produtoFritoAsset from "../assets/produto-frito.png.asset.json";
-import produtoCoxinhasAsset from "../assets/produto-coxinhas.png.asset.json";
-
-const logo = logoAsset.url;
-const historiaImg = historiaAsset.url;
-const produtoAssado = produtoAssadoAsset.url;
-const produtoChurrasco = produtoChurrascoAsset.url;
-const produtoFrito = produtoFritoAsset.url;
-const produtoCoxinhas = produtoCoxinhasAsset.url;
-
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Toca do Frangão | Frango assado na brasa, fresquinho todo dia" },
-      {
-        name: "description",
-        content:
-          "Frango assado, grelhado e frito feito na hora na Toca do Frangão. Peça pelo iFood, 99Food ou WhatsApp e receba quentinho.",
-      },
-      { property: "og:title", content: "Toca do Frangão | Frango na brasa fresquinho" },
-      {
-        property: "og:description",
-        content:
-          "Sabor de churrasco de verdade: frango assado, grelhado e frito. Peça pelo iFood, 99Food ou WhatsApp.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-  }),
-  component: Index,
-});
-
-// TODO: substituir pelos links reais
-const LINK_IFOOD = "https://www.ifood.com.br/delivery/sao-joao-de-meriti-rj/toca-do-frangao-coelho-da-rocha/2d960de4-65fb-4f56-b1a3-6bbab25749dd?utm_medium=share";
-const LINK_99FOOD = "https://oia.99app.com/dlp9/XI2EKh";
-const LINK_WHATSAPP = "https://wa.me/5521983110175";
+import historiaImg from "../assets/historia.png";
+import produtoAssado from "../assets/produto-assado.png";
+import produtoChurrasco from "../assets/produto-churrasco.png";
+import produtoFrito from "../assets/produto-frito.png";
+import produtoCoxinhas from "../assets/produto-coxinhas.png";
 
 const produtos = [
   {
@@ -62,7 +28,7 @@ const produtos = [
   },
   {
     nome: "FRANGO NA BRASA",
-    desc: "Frango estupidamente\u00a0 saboroso com gostinho de churrasco, vicia!",
+    desc: "Frango estupidamente saboroso com gostinho de churrasco, vicia!",
     img: produtoCoxinhas,
   },
 ];
