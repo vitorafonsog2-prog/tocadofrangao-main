@@ -3,22 +3,6 @@
 
 @source "../src";
 
-@font-face {
-  font-family: "Bebas Neue";
-  src: url("https://fonts.gstatic.com/s/bebasneue/v11/JTUQjIg69CK48gIGxrGWDOyPOA.woff2")
-    format("woff2");
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Barlow";
-  src: url("https://fonts.gstatic.com/s/barlow/v12/7cHqv4wsmmtS_TMQ0k40QkRJW-I.woff2")
-    format("woff2");
-  font-weight: 400;
-  font-display: swap;
-}
-
 @custom-variant dark (&:is(.dark *));
 
 /*
