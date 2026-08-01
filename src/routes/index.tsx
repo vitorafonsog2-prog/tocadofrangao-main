@@ -1,14 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Clock, Flame, Instagram, MapPin, Facebook } from "lucide-react";
 
-import { Reveal } from "@/components/Reveal";
-import logoAsset from "@/assets/logo.webp.asset.json";
-import heroImg from "@/assets/hero-frango.jpg";
-import historiaAsset from "@/assets/historia.png.asset.json";
-import produtoAssadoAsset from "@/assets/produto-assado.png.asset.json";
-import produtoChurrascoAsset from "@/assets/produto-churrasco.png.asset.json";
-import produtoFritoAsset from "@/assets/produto-frito.png.asset.json";
-import produtoCoxinhasAsset from "@/assets/produto-coxinhas.png.asset.json";
+import { Reveal } from "../components/Reveal";
+import logoAsset from "../assets/logo.webp.asset.json";
+import heroImg from "../assets/hero-frango.jpg";
+import historiaAsset from "../assets/historia.png.asset.json";
+import produtoAssadoAsset from "../assets/produto-assado.png.asset.json";
+import produtoChurrascoAsset from "../assets/produto-churrasco.png.asset.json";
+import produtoFritoAsset from "../assets/produto-frito.png.asset.json";
+import produtoCoxinhasAsset from "../assets/produto-coxinhas.png.asset.json";
 
 const logo = logoAsset.url;
 const historiaImg = historiaAsset.url;
