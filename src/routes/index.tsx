@@ -9,6 +9,7 @@ import produtoAssado from "../assets/produto-assado.png";
 import produtoChurrasco from "../assets/produto-churrasco.png";
 import produtoFrito from "../assets/produto-frito.png";
 import produtoCoxinhas from "../assets/produto-coxinhas.png";
+import ifoodLogo from "../assets/ifoodlogo.webp";
 
 // TODO: substituir pelos links reais
 const LINK_IFOOD = "https://www.ifood.com.br/delivery/sao-joao-de-meriti-rj/toca-do-frangao-coelho-da-rocha/2d960de4-65fb-4f56-b1a3-6bbab25749dd?utm_medium=share";
@@ -223,7 +224,7 @@ function Index() {
                 rel="noopener noreferrer"
                 className="flex min-h-16 w-full items-center justify-center gap-3 rounded-2xl bg-ifood px-6 font-display text-2xl tracking-widest text-cream shadow-lg transition-transform duration-200 hover:scale-[1.03] active:scale-95"
               >
-                <IfoodIcon className="h-7 w-7 shrink-0" />
+                <img src={ifoodLogo} alt="iFood" className="h-7 w-7 shrink-0" />
                 Peça pelo iFood
               </a>
             </Reveal>
