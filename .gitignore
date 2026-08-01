@@ -30,7 +30,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Images
-src/assets/*.png
-src/assets/*.webp
