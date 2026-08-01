@@ -4,12 +4,11 @@ import { RouterProvider } from '@tanstack/react-router';
 import { getRouter } from './router';
 import './styles.css';
 
-// Inicializa o roteador com o QueryClient configurado
 const router = getRouter();
 
 const rootElement = document.getElementById('root');
 
-if (rootElement && !rootElement.innerHTML) {
+if (rootElement) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
     <React.StrictMode>
